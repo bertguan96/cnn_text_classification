@@ -4,8 +4,8 @@ from valid_model_acc import get_acc
 import os
 
 # 创建执行器，请用GPU进行预测。
-# place = fluid.CUDAPlace(0)
-place = fluid.CPUPlace()
+place = fluid.CUDAPlace(0)
+# place = fluid.CPUPlace()
 exe = fluid.Executor(place)
 exe.run(fluid.default_startup_program())
 # 保存预测模型路径

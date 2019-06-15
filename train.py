@@ -45,9 +45,9 @@ optimizer = fluid.optimizer.AdamOptimizer(learning_rate=0.001)
 #                          regularization_coeff=0.01))
 opt = optimizer.minimize(avg_cost)
 # 创建一个执行器，CPU训练速度比较慢
-place = fluid.CPUPlace()
+# place = fluid.CPUPlace()
 # 请用GPU进行计算，CPU运算结果不佳。
-# place = fluid.CUDAPlace(0)
+place = fluid.CUDAPlace(0)
 exe = fluid.Executor(place)
 
 # 进行参数初始化

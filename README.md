@@ -199,12 +199,13 @@ pip3 install paddlepaddle-gpu
 
 环境：
 
-| 显卡  | [NVIDIA Tesla V100](https://www.nvidia.cn/data-center/tesla-v100/) |
-| ----- | ------------------------------------------------------------ |
-| Cores | 2                                                            |
-| 内存  | 8GB Memory                                                   |
-| 系统  | Ubuntu                                                       |
-| 显存  | 16G                                                          |
+| 显卡             | [NVIDIA Tesla V100](https://www.nvidia.cn/data-center/tesla-v100/) |
+| ---------------- | ------------------------------------------------------------ |
+| Cores            | 2                                                            |
+| 内存             | 8GB Memory                                                   |
+| 系统             | Ubuntu                                                       |
+| 显存             | 16G                                                          |
+| paddlepaddle版本 | 框架: PaddlePaddle 1.4.1 (Python 3.6)                        |
 
 软件：Jupyter 笔记本
 
@@ -718,3 +719,6 @@ github仓库：<https://github.com/guanjiangtao/python_work/tree/master/%E8%AF%B
 百度平台地址（已经公开）：<https://aistudio.baidu.com/aistudio/projectdetail/71554>
 
 paddlepaddle安装文档：<http://paddlepaddle.org/documentation/docs/zh/1.4/beginners_guide/install/index_cn.html?from=paddlefooter>
+
+对应代码git地址：<https://github.com/guanjiangtao/cnn_text_classification>   （请使用GPU进行运算）
+
