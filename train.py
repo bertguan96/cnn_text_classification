@@ -24,9 +24,10 @@ label = fluid.layers.data(name='label', shape=[1], dtype='int64')
 # 获取数据字典长度
 dict_dim = create_data.get_dict_len(root_path + 'dict_txt_all.txt')
 
-
+# cnn（经过后期测试发现cnn效果优于lstm）
 model = net.cnn_net(words,label,dict_dim)
-
+# bilstm
+# model = net.bilstm_net(words,dict_dim,10)
 
 # 获取损失函数和准确率
 cost = fluid.layers.cross_entropy(input=model, label=label)

@@ -1,1 +1,1 @@
-paddlepaddle==1.4.1
+paddlepaddle-gpu==1.4.1
